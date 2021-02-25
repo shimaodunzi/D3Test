@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+/*全局样式*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box
+}
+
+::-webkit-input-placeholder {
+  text-overflow: ellipsis
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  overflow: auto
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  min-height: 25px;
+  min-width: 25px;
+  border: 1px solid #e0e0e0
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f7f7f7;
+  border: 1px solid #efefef
+}
+
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.42857143;
+  //font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif;
+  font-family: PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,Helvetica Neue,Arial,sans-serif;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%
+}
+
+ol,
+ul {
+  list-style: none
+}
+
+a {
+  color: #333;
+  outline: 0;
+  text-decoration: none
+}
+
+fieldset,
+img {
+  border: 0
+}
+
+button,
+input,
+select,
+textarea {
+  outline: 0;
+  border: none
+}
+
+input:focus {
+  outline: 0 !important
+}
+
+a:active,
+a:focus,
+button:active,
+button:focus,
+span:active,
+span:focus {
+  outline: 0
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+.clear:after {
+  content: '\20';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
